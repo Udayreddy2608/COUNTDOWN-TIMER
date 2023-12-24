@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+}
+*{
+    color: white;
+    text-align: center;
+}
+.end-date{
+    margin-top: 10%;
+}
+.timer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 8rem;
+    margin-top: 8%;
+    opacity: 0.9;
+}
+
+
+.divider{
+    width: 1px;
+    height: 20vh;
+    background-color: gray;
+}
+
+
+
+.underlines{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.timer p{
+    font-size: 1rem;
+}
+
+#top{
+    text-align: center;
+    font-size:2.6rem ;
+    text-shadow:
+    0 0 3px #C70039,
+    0 0 5px #C70039,
+    0 0 10px #C70039;
+}
+
+@media (max-width:600px){
+    .end-date{
+        margin-top: 50px;
+    }
+    .timer{
+        display: flex;
+        font-size: 4rem;
+        margin-top: 20%;
+    }
+    .divider{
+        width: 1px;
+        height:10vh;
+        background-color: gray;
+    }
+    #top{
+        font-size:1rem ;
+        color: #fff; 
+        }
+    }
+
+
+
+b{
+    color: #219C90;
+}
